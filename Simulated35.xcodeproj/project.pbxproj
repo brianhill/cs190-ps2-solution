@@ -13,7 +13,6 @@
 		D30F6B4E1C799E720037B77B /* InputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F6B491C799E720037B77B /* InputHandler.swift */; };
 		D30F6B4F1C799E720037B77B /* KeyboardInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F6B4A1C799E720037B77B /* KeyboardInput.swift */; };
 		D30F6B521C799E950037B77B /* CPUStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F6B501C799E950037B77B /* CPUStateTests.swift */; };
-		D30F6B531C799E950037B77B /* InputHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F6B511C799E950037B77B /* InputHandlerTests.swift */; };
 		D398247E1C799FB00056ECEF /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398247D1C799FB00056ECEF /* DisplayView.swift */; };
 		D398247F1C79A03B0056ECEF /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F6B461C799E720037B77B /* Clock.swift */; };
 		D39824801C79A03B0056ECEF /* CPUState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F6B471C799E720037B77B /* CPUState.swift */; };
@@ -44,7 +43,6 @@
 		D30F6B491C799E720037B77B /* InputHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputHandler.swift; path = Model/InputHandler.swift; sourceTree = "<group>"; };
 		D30F6B4A1C799E720037B77B /* KeyboardInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardInput.swift; path = Model/KeyboardInput.swift; sourceTree = "<group>"; };
 		D30F6B501C799E950037B77B /* CPUStateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPUStateTests.swift; sourceTree = "<group>"; };
-		D30F6B511C799E950037B77B /* InputHandlerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputHandlerTests.swift; sourceTree = "<group>"; };
 		D398247D1C799FB00056ECEF /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
 		D39D6E5A1C7E9CFE000FE1A5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D3B4309F1C799C3F00B1A576 /* Simulated35.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simulated35.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				D30F6B501C799E950037B77B /* CPUStateTests.swift */,
-				D30F6B511C799E950037B77B /* InputHandlerTests.swift */,
 				D3B430B91C799C3F00B1A576 /* Info.plist */,
 			);
 			path = Simulated35Tests;
@@ -254,7 +251,6 @@
 				D39824811C79A03B0056ECEF /* DisplayDecoder.swift in Sources */,
 				D30F6B521C799E950037B77B /* CPUStateTests.swift in Sources */,
 				D39824801C79A03B0056ECEF /* CPUState.swift in Sources */,
-				D30F6B531C799E950037B77B /* InputHandlerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
